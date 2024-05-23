@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Remote Job Quiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/quizStyle.css">
+
+     <!--jQuery CDN-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="d-flex min-vh-100 bg-light bg-gradient">
+        <div class="container align-self-center">
+            <div class="row justify-content-center">
+                <div class="px-4 py-5 my-5">
+                    <!--Start Question 01-->
+                    <div class="card mb-3" id="question-1" data-id="1">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Are they asking you to submit confidential information?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 01-->
+
+                    <!--Start Question 02-->
+                    <div class="card mb-3" id="question-2" data-id="2">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Are they asking for your bank details before accepting the job offer?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" class="next-btn">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+                    
+                    <!--Start Question 02-->
+                    <div class="card mb-3" id="question-3" data-id="3">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Are all communications during the job interview process done on chat apps or email?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" id="next-btn">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+
+                    
+                    <div class="card mb-3" id="question-4" data-id="4">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Was there never an initial phone call scheduled? Was there never a phone call or video interview?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" id="next-btn-1">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+
+
+                    <!--Start Question 02-->
+                    <div class="card mb-3" id="question-5" data-id="5">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Do all emails come from unofficial domains or personal email addresses?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" id="next-btn-1">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+
+                    <!--Start Question 02-->
+                    <div class="card mb-3" id="question-6" data-id="6">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Does the company lack credibility online?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" id="next-btn-1">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+
+
+                    <!--Start Question 02-->
+                    <div class="card mb-3" id="question-7" data-id="7">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Are the employees on LinkedIn mostly private profiles?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" id="next-btn-1">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+
+                    <!--Start Question 02-->
+                    <div class="card mb-3" id="question-8" data-id="8">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Did the job posting used words that sound like too good to be true such as "unlimited earning potential", 
+                                "quick money opportunity", "easy work-from-home jobs", etc.?</h3>
+                                <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                                <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                                <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" id="next-btn-1">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+
+                    <!--Start Question 02-->
+                    <div class="card mb-3" id="question-9" data-id="9">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Is the job description vague?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" id="next-btn-1">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+
+                    <!--Start Question 02-->
+                    <div class="card mb-3" id="question-10" data-id="10">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Do the job description and emails ahve grammatical errors or typos?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" id="next-btn-1">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+
+                    
+                    <div class="card mb-3" id="question-11" data-id="11">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Did the "hiring manager" sent you a check through email or direct mail and asked you to deposit it in your bank account for you to buy the equipments needed for work?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" id="next-btn-1">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+
+                    <div class="card mb-3" id="question-12" data-id="12">
+                        <div class="card-body mx-4">
+                            <h3 class="card-title my-4">Does the offer sound too good to be true?</h3>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-yes px-4" value="Yes">Yes</button>
+                            <button class="btn rounded-pill btn-light btn-lg btn-outline-dark btn-no px-4" value="No">No</button>
+                            <input class="answer-value" type="text" value="">
+                        </div>
+                        <div class="card-footer text-end">
+                            <button class="btn btn-success next-btn" id="next-btn-1">Next<span style="margin-left: 5px;"><i
+                                        class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+                        </div>
+                    </div>
+                    <!--End Question 02-->
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/quiz.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,10 @@
+.btn-yes.clicked,
+.btn-no.clicked {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.btn-yes,
+.btn-no {
+    margin-right: 5px;
+}
