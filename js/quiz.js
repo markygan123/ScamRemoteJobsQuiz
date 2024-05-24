@@ -89,8 +89,7 @@ $(document).ready(function() {
                 $('#question-'+parseInt(currentQuestion + 1)).show();
                 break;        
             case 12:
-                $('#question-'+currentQuestion).hide();
-                $('#question-'+parseInt(currentQuestion + 1)).show();
+                goToResultsPage();
                 break;        
             default:
                 break;
@@ -100,5 +99,10 @@ $(document).ready(function() {
         console.log('No Count: ' + noCount);
         console.log(currentQuestion);
     });
+
+    function goToResultsPage() {
+        localStorage.setItem("QuizScore", yesCount);
+        window.location.href = 'result.html';
+    }
 
 });
